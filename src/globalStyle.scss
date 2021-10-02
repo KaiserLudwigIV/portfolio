@@ -10,16 +10,29 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Raleway;
+	color: #fff;
 }
 body {
 	background-color: hsl(170, 100%, 10%);
 	overflow-x: hidden;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-	color: #fff;
-	font-family: Raleway;
+.appContainer {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+	.workInProgress {
+		position: fixed;
+		bottom: 1rem;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+.welcomeCard {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	img {
+		width: 7rem;
+	}
 }

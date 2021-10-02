@@ -1,13 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ProfilePicture from "./content/profilePic.svg";
 
 const App = () => {
 	return (
-		<div>
-			<h1>Maximilian Heppner</h1>
-			<h2>Maximilian Heppner</h2>
-			<h3>Maximilian Heppner</h3>
-			<h4>Maximilian Heppner</h4>
+		<div className="appContainer">
+			<div className="welcomeCard">
+				<img src={ProfilePicture} alt="Profile picture" />
+				<span>
+					<p>Portfolio of</p>
+					<h1>Maximilian Heppner</h1>
+				</span>
+			</div>
+			<div className="workInProgress">
+				<p>Work in progress.</p>
+			</div>
 		</div>
 	);
 };
