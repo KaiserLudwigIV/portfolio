@@ -1,9 +1,12 @@
 {
   "rewrites": [
-    { "source": "/terminbuchung", "destination": "/terminbuchung.html" },
-    { "source": "/:path*", "destination": "/index.html" }
+    { "source": "/terminbuchung", "destination": "/terminbuchung" },
+    { "source": "/index", "destination": "/index" },
+    { "source": "/(.*)", "destination": "/index" }
   ],
-  "redirects": [
-    { "source": "/(*)", "destination": "/index.html", "permanent": true }
+  "routes": [
+    { "src": "/terminbuchung", "dest": "/terminbuchung" },
+    { "src": "/index", "dest": "/index" },
+    { "src": "/(.*)", "dest": "/index" }
   ]
 }
