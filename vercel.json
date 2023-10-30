@@ -3,10 +3,5 @@
     { "source": "/terminbuchung", "destination": "/terminbuchung" },
     { "source": "/index", "destination": "/index" },
     { "source": "/(.*)", "destination": "/index" }
-  ],
-  "routes": [
-    { "src": "/terminbuchung", "dest": "/terminbuchung" },
-    { "src": "/index", "dest": "/index" },
-    { "src": "/(.*)", "dest": "/index" }
   ]
 }
