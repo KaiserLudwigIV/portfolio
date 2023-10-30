@@ -1,7 +1,6 @@
 {
   "rewrites": [
-    { "source": "/terminbuchung", "destination": "/terminbuchung" },
-    { "source": "/index", "destination": "/index" },
-    { "source": "/(.*)", "destination": "/index" }
+    { "source": "/terminbuchung", "destination": "/terminbuchung.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
