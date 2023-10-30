@@ -1,10 +1,6 @@
 {
   "rewrites": [
     { "source": "/terminbuchung", "destination": "/terminbuchung.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 200, "dest": "/" }
+    { "source": "/:path*", "destination": "/index.html" }
   ]
 }
