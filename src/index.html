@@ -30,10 +30,9 @@
   </body>
   <script type="text/javascript">
     if (window.location.pathname !== "/terminbuchung") {
-      if (window.location.pathname === "") {
-        return;
+      if (window.location.pathname !== "/") {
+        window.location.pathname = "";
       }
-      window.location.pathname = "";
     }
   </script>
 </html>

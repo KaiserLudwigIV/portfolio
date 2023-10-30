@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/* -d public --no-source-maps",
-    "serve": "parcel serve src/terminbuchung.html"
+    "serve": "parcel serve src/index.html"
   },
   "keywords": [],
   "author": "",
